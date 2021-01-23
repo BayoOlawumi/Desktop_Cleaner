@@ -60,7 +60,7 @@ class TheHandler(FileSystemEventHandler):
         
         
 toast = ToastNotifier()
-toast.show_toast("Desktop Organizer", "...Desktop cleaning has started", duration=30)
+toast.show_toast("Desktop Organizer", "Your Desktop is Clean with me, Abayomi", duration=30)
 
 handler = TheHandler()
 observer = Observer()
