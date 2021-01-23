@@ -10,7 +10,7 @@ dumping_folder = 'Gabbage'
 folder_to_monitor = '/Users/BayoOlawumi/Desktop'
 folder_to_move_latefiles = folder_to_monitor +'/' + dumping_folder
 threshold_days = 5
-code_location = "C:/Users/BayoOlawumi/Desktop/Masters/CamSec/CamSec_Scripts"
+code_location = "C:/Users/BayoOlawumi/Desktop/Masters/CamSec/Desktop_Cleaner"
 
 os.chdir(code_location)
 class TheHandler(FileSystemEventHandler):
