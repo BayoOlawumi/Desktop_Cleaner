@@ -13,7 +13,7 @@
 ##  To automate the process to start when you switch on your PC (Windows Users only)
 
  > **Click the search button and search for register, open registry editor**
- >
+ >![!](/imgs/registry.JPG)
     >> navigate to - ***Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run***
         - Right click, create new string value
         - After creating, righ click to modify
