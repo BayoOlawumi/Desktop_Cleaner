@@ -3,6 +3,7 @@ import os
 import time
 import datetime
 import pywintypes
+from connectivity_checker import connect
 from watchdog.events import FileSystemEventHandler
 from win10toast import ToastNotifier
 
@@ -60,7 +61,10 @@ class TheHandler(FileSystemEventHandler):
         
         
 toast = ToastNotifier()
-toast.show_toast("Desktop Organizer", "Your Desktop is Clean with me, Abayomi", duration=30)
+if connect():
+    toast.show_toast("eBayo's Automated Machine", "There is internet and your Desktop is Clean with me, Abayomi", duration=30)
+else:
+    toast.show_toast("eBayo's Automated Machine", "No Internet but your Desktop is Clean with me, Abayomi", duration=30)
 
 handler = TheHandler()
 observer = Observer()
