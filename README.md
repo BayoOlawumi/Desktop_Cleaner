@@ -22,7 +22,7 @@
         - Fill in the filepath of you file_organizer.vbs, in my case
            - `C:\Users\BayoOlawumi\Desktop\Masters\CamSec\CamSec_Scripts\file_organizer.vbs`
 
-> **Go to your command prompt and do **
+> **Go to your command prompt and do**
 
      `pip install wintoast10, watchdog, pypiwin32`
 
